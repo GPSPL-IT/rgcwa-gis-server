@@ -47,5 +47,4 @@ urlpatterns = [
     path('api/', include('water_qualityApi.urls')),
     path('api/', include('aquiferApi.urls')),
     path('api/', include('rechargeStructureApi.urls')),
-    path('api/export/', include('exportApi.urls')),
 ]
